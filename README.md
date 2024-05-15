@@ -17,4 +17,4 @@ Prerequisites:
 - Unreal Engine 5.1
 - Python 3
 
-Run `make_pseudo_menu.bat`
+Run `build.bat`

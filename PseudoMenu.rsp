@@ -1,0 +1,25 @@
+UI/UI_HUD
+UI/UI_HUD_ORIGINAL < UI/UI_HUD
+UI/title/UI_MainMenu
+UI/title/UI_MainMenu_Copy < UI/title/UI_MainMenu
+Mods/PseudoMenuMod/DT_Upgrades
+Mods/PseudoMenuMod/F_GamePreset
+Mods/PseudoMenuMod/F_Upgrade
+Mods/PseudoMenuMod/Save_PseudoMenuMod
+Mods/PseudoMenuMod/Style_Button0
+Mods/PseudoMenuMod/Style_TextL
+Mods/PseudoMenuMod/Style_TextM
+Mods/PseudoMenuMod/Style_TextS
+Mods/PseudoMenuMod/Style_TextXL
+Mods/PseudoMenuMod/WBP_ExistingFileMenu
+Mods/PseudoMenuMod/WBP_FileSelectMenu
+Mods/PseudoMenuMod/WBP_FileSelectMenuButton
+Mods/PseudoMenuMod/WBP_HoldButton
+Mods/PseudoMenuMod/WBP_Icon
+Mods/PseudoMenuMod/WBP_MainMenuOverlay
+Mods/PseudoMenuMod/WBP_NewFileMenu
+Mods/PseudoMenuMod/WBP_ToggleVisButton
+Mods/PseudoMenuMod/WBP_UpgradeToggleButton
+Mods/PseudoMenuMod/WBP_UpgradeToggleList
+Mods/PseudoMenuMod/WBP_Wrapper
+Mods/PseudoMenuMod/arrow_down
