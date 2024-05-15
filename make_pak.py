@@ -16,7 +16,7 @@ def extract(pak_path, asset_path, out_path):
 def rename(a, b):
     subprocess.run([_UEDIT_EXE, '-i', a + '.uasset', '-o', b + '.uasset'], check=True)
 
-def make_pak(pak_name, asset_list):
+def make_pak(pak_name, asset_list, output_filename):
     def write_line(f, src, dst):
         f.write('"')
         f.write(src)
@@ -45,17 +45,18 @@ def make_pak(pak_name, asset_list):
         with open(rsp_path) as f:
             for line in f.readlines():
                 print(line)
-        subprocess.run([_UNREAL_PAK_EXE, os.path.abspath(f'./{pak_name}_p.pak'), '-Create={}'.format(os.path.abspath(rsp_path)), '-compress'], check=True)
+        subprocess.run([_UNREAL_PAK_EXE, os.path.abspath(output_filename), '-Create={}'.format(os.path.abspath(rsp_path)), '-compress'], check=True)
 
 def main():
     parser = argparse.ArgumentParser(description='Cook and package assets')
     parser.add_argument('-i', '--asset-list', dest='asset_list_filename', required=True)
+    parser.add_argument('-o', '--output', dest='output_filename', required=True)
     args = parser.parse_args(sys.argv[1:])
     pak_name = os.path.splitext(os.path.basename(args.asset_list_filename))[0]
     f = open(args.asset_list_filename)
     asset_list = tuple(map(lambda l: l.rstrip('\n'), f.readlines()))
     f.close()
-    make_pak(pak_name, asset_list)
+    make_pak(pak_name, asset_list, args.output_filename)
 
 if __name__ == '__main__':
     main()
