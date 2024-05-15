@@ -17,4 +17,7 @@ Prerequisites:
 - Unreal Engine 5.1
 - Python 3
 
-Run `build.bat`
+Steps:
+
+1. Run `cook.bat` (equivalent to running a cook in-editor)
+1. Run `deploy.bat` (uses UnrealPak.exe to pack up the assets you just cooked and deploys the resulting pak)
