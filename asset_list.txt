@@ -9,6 +9,7 @@ Mods/PseudoMenuMod/Save_PseudoMenuMod
 Mods/PseudoMenuMod/Style_Button0
 Mods/PseudoMenuMod/Style_TextL
 Mods/PseudoMenuMod/Style_TextM
+Mods/PseudoMenuMod/Style_TextM_em
 Mods/PseudoMenuMod/Style_TextS
 Mods/PseudoMenuMod/Style_TextXL
 Mods/PseudoMenuMod/WBP_ExistingFileMenu
