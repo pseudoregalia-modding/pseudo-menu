@@ -3,6 +3,7 @@ UI/UI_HUD_ORIGINAL < UI/UI_HUD
 UI/title/UI_MainMenu
 UI/title/UI_MainMenu_Copy < UI/title/UI_MainMenu
 Mods/PseudoMenuMod/DT_Upgrades
+Mods/PseudoMenuMod/DT_MinorUpgrades
 Mods/PseudoMenuMod/F_GamePreset
 Mods/PseudoMenuMod/F_Upgrade
 Mods/PseudoMenuMod/Save_PseudoMenuMod
